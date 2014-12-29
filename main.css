@@ -1,0 +1,963 @@
+body, html {
+	width: 100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+	}
+	
+a {
+	text-decoration: none;
+	color: white;
+	}
+
+a:visited {
+	color: white;
+	}
+	
+#agentinfo a {
+	text-decoration: underline;
+	}
+
+#bottomcontent h1, .testimonial h1, #listings, #updates h1, #formheader h1  {
+	font-family: Goudy Bookletter 1911, serif;
+	font-weight: normal;
+	}
+
+nav, header p, footer, #aboutinfo, #bottomcontent p, .house h4, .house p, .testimonial p, #formbody {
+	font-family: Rokkitt;
+	}
+
+.house h1 {
+	font-family: Pontano Sans, serif;
+	font-weight: normal;
+	}
+
+.house h4 {
+	font-weight: normal;
+	}
+
+header span {
+	font-family: Tangerine, serif;
+	font-size: 36px;
+	}
+
+.testimonial span {
+	font-size: 18px;
+	}
+
+.testimonial {
+	border-bottom: 5px solid black;
+	padding-bottom: 2em;
+	}
+
+#wrapper {
+	background-image: url('images/BlackTexture.png');
+	color: white;
+	min-height: 100%;
+	margin-bottom: -3.5em;
+	}
+
+footer {
+	width: 100%;
+	background-image: url('images/zwartevilt.png');
+	text-align: center;
+	height: 3.5em;
+	}
+
+.push {
+	height: 3.5em;
+	}
+	
+footer a {
+	display: inline-block;
+	}	
+	
+#footerwrap {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-top: .5em;
+	}
+	
+@media only screen and (max-width: 599px) {
+/* INDEX */
+header {
+	width: 100%;
+	background-image: url('images/zwartevilt.png');
+	text-align: center;
+	}
+	
+#agentinfo {
+	width: 89%;
+	height: 7em;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	
+#agentpic {
+	height: 100%;
+	width: 5.5em;
+	display: inline-block;
+	border-radius: 2px;
+	}
+
+header p {
+	display: inline-block;
+	vertical-align: top;
+	}	
+
+#agentlogo {
+	display: none;
+	}
+
+nav {
+	width: 100%;
+	background-image: url('images/tweed.png');
+	height: 5em;
+	color: white;
+	}
+
+nav img {
+	display: inline-block;
+	height: 18px;
+	width: 18px;
+	vertical-align: middle;
+	padding-right: .4em;
+	}
+
+nav p {
+	display: inline-block;
+	}
+	
+#row1 p {
+	padding-right: .6em;
+	}
+
+.row {
+	display: inline-block;
+	}
+
+#row1 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 82%;
+	height: 2.25em;
+	margin-bottom: -.5em;
+	text-align: center;
+	}
+	
+#row2 {
+	margin-left: auto;
+	margin-right: auto;
+	width: 90%;
+	height: 2.25em;
+	text-align: center;
+	}
+	
+#jumbo {
+	position: relative;
+	width: 100%;
+	height: 17em;
+	}
+	
+.slide {
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 17em;
+	}
+
+.activeslide {
+	display: block;
+	}
+	
+#bottomcontent {
+	background-image: url('images/BlackTexture.png');
+	width: 100%;
+	height: 28em;
+	padding-top: 1.75em;
+	}
+
+.block {
+	background-image: url('images/mochaGrunge.png');
+	border-radius: 5px;
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	}
+
+.block a {
+	color: blue;
+	}
+	
+.block h1 {
+	margin: 0;
+	padding-top: .2em;
+	text-align: center;
+	}
+
+.block p {
+	text-align: justify;
+	padding: 0em 2em 2em 2em;
+	}
+
+footer {
+	width: 100%;
+	background-image: url('images/zwartevilt.png');
+	}
+	
+footer a {
+	display: inline-block;
+	font-size: 11.25px;
+	}
+	
+#footerwrap {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	}
+/* ABOUT */
+#about {
+	width: 100%;
+	}
+
+#about img {
+	height: 15em;
+	width: 10em;
+	border-radius: 5px;
+	padding-top: 1.5em;
+	}
+	
+#aboutimage {
+	width: 10em;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+#aboutinfo {
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-right: auto;
+	margin-left: auto;
+	width: 75%;
+	}
+/* PROPERTIES */
+#listings {
+	margin-top: 0;
+	padding-top: .2em;
+	text-align: center;
+	}
+
+.house {
+	border-radius: 5px;
+	width: 76%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	margin-bottom: 1em;
+	background-image: url('images/mochaGrunge.png');
+	}
+
+.house h1  {
+	margin: 0;
+	padding-top: .2em;
+	}
+	
+.house h4 {
+	margin: 0;
+	padding-bottom: .4em;
+	padding-top: .4em;
+	}
+
+.house p {
+	margin-top: 0;
+	padding-bottom: .2em;
+	}
+
+.house img {
+	width: 100%;
+	height: 11em;
+	}
+
+/*TESTIMONIALS*/
+#testimonials {
+	width: 100%;
+	}
+
+.testimonial {
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;
+	}
+
+.testimonial h1 {
+	margin: 0;
+	}
+	
+.testimonial p {
+	padding-top: 1em;
+	margin: 0;
+	}
+
+/* UPDATES */
+#updates {
+	width: 100%;
+	}
+	
+#updates h1 {
+	margin: 0;
+	text-align: center;
+	padding-top: .2em;
+	padding-bottom: .2em;
+	}
+
+.video {
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+.video iframe {
+	width: 100%;
+	height: 14em;
+	}
+/* CONTACT */
+#form {
+	width: 100%;
+	}
+	
+#formheader h1 {
+	margin: 0;
+	text-align: center;
+	padding-top: 1.5em;
+	padding-bottom: 1.5em;
+	}
+
+#formbody {
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	
+#formbody input {
+	width: 100%;
+	margin-bottom: .8em;
+	}
+
+#formbody textarea {
+	width: 100%;
+	height: 10em;
+	}
+
+#formbody #submit {
+	width: 40%;
+	border-radius: 5px;
+	margin-top: 1em;
+	margin-bottom: 8em;
+	}
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+/* INDEX */
+header {
+	width: 100%;
+	background-image: url('images/zwartevilt.png');
+	text-align: center;
+	}
+	
+#agentinfo {
+	width: 89%;
+	height: 7em;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	
+#agentpic {
+	height: 100%;
+	width: 5.5em;
+	display: inline-block;
+	border-radius: 2px;
+	}
+
+header p {
+	display: inline-block;
+	vertical-align: top;
+	}	
+
+#agentlogo {
+	display: inline-block;
+	height: 25%;
+	width: 5em;
+	padding-bottom: .4em;
+	}
+
+nav {
+	width: 100%;
+	background-image: url('images/tweed.png');
+	height: 3em;
+	color: white;
+	}
+
+nav img {
+	display: inline-block;
+	height: 18px;
+	width: 18px;
+	padding-right: .2em;
+	vertical-align: middle;
+	}
+
+nav p {
+	display: inline-block;
+	}
+
+.row {
+	display: inline-block;
+	padding-right: .3em;
+	}
+	
+.row:last-child {
+	margin-right: 0;
+	}
+
+#row1, #row2 {
+	display: inline-block;
+	}
+
+#navwrap {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	}
+
+#jumbo {
+	position: relative;
+	width: 100%;
+	height: 30em;
+	}
+	
+.slide {
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 30em;
+	}
+
+.activeslide {
+	display: block;
+	}
+
+#bottomcontent {
+	background-image: url('images/BlackTexture.png');
+	width: 100%;
+	height: 15.5em;
+	padding-top: 3em;
+	}
+
+.block {
+	background-image: url('images/mochaGrunge.png');
+	border-radius: 5px;
+	width: 32%;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	display: inline-block;
+	vertical-align: top;
+	height: 13.25em;
+	}
+
+.block a {
+	color: blue;
+	}
+	
+.block h1 {
+	margin: 0;
+	padding-top: .2em;
+	text-align: center;
+	}
+
+.block p {
+	text-align: justify;
+	padding: 0em 1.5em 0em 1.5em;
+	}	
+
+#block1 {
+	margin-left: 1.5%;
+	}
+	
+footer a {
+	font-size: 12px;
+	}	
+/* ABOUT */
+#about {
+	width: 100%;
+	}
+
+#about img {
+	height: 17em;
+	width: 12em;
+	border-radius: 5px;
+	padding-top: 2em;
+	padding-bottom: 1em;
+	}
+	
+#aboutimage {
+	width: 10em;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+#aboutinfo {
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-right: auto;
+	margin-left: auto;
+	width: 65%;
+	}
+/* PROPERTIES */
+#listings {
+	margin-top: 0;
+	padding-top: .2em;
+	text-align: center;
+	}
+	
+.twohouses {
+	width: 89%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	}
+	
+.house {
+	border-radius: 5px;
+	width: 45%;
+	text-align: center;
+	margin-bottom: 1em;
+	background-image: url('images/mochaGrunge.png');
+	display: inline-block;
+	}
+	
+.house1 {
+	margin-right: 2%;
+	}
+	
+.house h1  {
+	margin: 0;
+	padding-top: .2em;
+	}
+	
+.house h4 {
+	margin: 0;
+	padding-bottom: .4em;
+	padding-top: .4em;
+	}
+
+.house p {
+	margin-top: 0;
+	padding-bottom: .2em;
+	}
+
+.house img {
+	width: 100%;
+	height: 12em;
+	}
+/*TESTIMONIALS*/
+#testimonials {
+	width: 100%;
+	}
+
+.testimonial {
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-right: auto;
+	margin-left: auto;
+	width: 90%;
+	}
+
+.testimonial h1 {
+	margin: 0;
+	padding-top: .5em;
+	}
+	
+.testimonial p {
+	padding-top: 1em;
+	margin: 0;
+	}
+/* UPDATES */
+#updates {
+	width: 100%;
+	}
+	
+#updates h1 {
+	margin: 0;
+	text-align: center;
+	padding-top: .7em;
+	padding-bottom: .2em;
+	}
+
+.video {
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+.video iframe {
+	width: 100%;
+	height: 20em;
+	}
+	
+#lacanada {
+	margin-bottom: 2em;
+	}
+/* CONTACT */
+#form {
+	width: 100%;
+	}
+	
+#formheader h1 {
+	margin: 0;
+	text-align: center;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	}
+
+#formbody {
+	width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	
+#formbody input {
+	width: 100%;
+	margin-bottom: 1em;
+	}
+
+#formbody textarea {
+	width: 100%;
+	height: 10em;
+	}
+
+#formbody #submit {
+	width: 40%;
+	border-radius: 5px;
+	margin-top: 1.5em;
+	}	
+}
+
+@media only screen and (min-width: 1025px) {
+/*INDEX*/
+header {
+	width: 100%;
+	height: 8em;
+	background-image: url('images/zwartevilt.png');
+	text-align: center;
+	}
+	
+#agentinfo {
+	width: 89%;
+	height: 8em;
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	
+#agentpic {
+	height: 100%;
+	width: 6.5em;
+	display: inline-block;
+	border-radius: 2px;
+	}
+
+header p {
+	display: inline-block;
+	vertical-align: top;
+	}	
+
+header a:hover {
+	color: red;
+	}
+	
+#agentlogo {
+	display: inline-block;
+	height: 25%;
+	width: 5em;
+	padding-bottom: .4em;
+	}
+
+nav {
+	width: 100%;
+	background-image: url('images/tweed.png');
+	height: 4em;
+	color: white;
+	}
+
+nav img {
+	display: inline-block;
+	height: 1.5em;
+	width: 1.5em;
+	padding-right: .75em;
+	vertical-align: middle;
+	margin-top: 1.25em;
+	margin-bottom: 1.25em;
+	}
+
+nav p {
+	display: inline-block;
+	}
+
+.row {
+	display: inline-block;
+	padding-right: 1.5em;
+	height: 4em;
+	}
+	
+.row:hover {
+	color: red;
+	}
+
+#row1, #row2 {
+	display: inline-block;
+	}
+
+#navwrap {
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	height: 4em;
+	}
+	
+#jumbo {
+	position: relative;
+	width: 100%;
+	height: 45em;
+	}
+	
+.slide {
+	display: none;
+	position: absolute;
+	width: 100%;
+	height: 45em;
+	}
+
+.activeslide {
+	display: block;
+	}
+
+#bottomcontent {
+	background-image: url('images/BlackTexture.png');
+	width: 100%;
+	height: 15.5em;
+	padding-top: 3em;
+	text-align: center;
+	}
+
+.block {
+	background-image: url('images/mochaGrunge.png');
+	border-radius: 5px;
+	width: 25%;
+	margin-left: auto;
+	margin-right: auto;
+	color: white;
+	display: inline-block;
+	vertical-align: top;
+	height: 12.5em;
+	}
+
+.block a {
+	color: blue;
+	}
+	
+.block h1 {
+	margin: 0;
+	padding-top: .5em;
+	text-align: center;
+	}
+
+.block p {
+	text-align: justify;
+	padding: 0em 2.5em 0em 2.5em;
+	}	
+
+#block1, #block2 {
+	margin-right: 4%;
+	}
+
+footer a {
+	font-size: 14px;
+	}
+
+footer a:hover {
+	color: red;
+	}
+/*ABOUT*/
+#about {
+	width: 100%;
+	}
+
+#aboutwrap {
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4em;
+	padding-left: 10em;
+	}
+
+#about img {
+	height: 20em;
+	width: 14em;
+	border-radius: 5px;
+
+	}
+	
+#aboutimage {
+	display: inline-block;
+
+	}
+
+#aboutinfo {
+	padding-left: 1em;
+	padding-right: 1em;
+	vertical-align: top;
+	width: 62%;
+	display: inline-block;
+	margin-top: 1.5em;
+	font-size: 18px;
+	}
+/* PROPERTIES */
+#listings {
+	margin-top: 0;
+	padding-top: .5em;
+	text-align: center;
+	}
+	
+.twohouses {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	}
+	
+.house {
+	border-radius: 5px;
+	width: 25%;
+	text-align: center;
+	margin-bottom: 3em;
+	background-image: url('images/mochaGrunge.png');
+	display: inline-block;
+	}
+	
+.house1 {
+	margin-right: 5%;
+	}
+	
+.house h1  {
+	margin: 0;
+	padding-top: .2em;
+	}
+	
+.house h4 {
+	margin: 0;
+	padding-bottom: .4em;
+	padding-top: .4em;
+	}
+
+.house p {
+	margin-top: .8em;
+	padding-bottom: .2em;
+	}
+
+.house img {
+	width: 100%;
+	height: 12em;
+	}
+/*TESTIMONIALS*/
+#testimonials {
+	width: 100%;
+	}
+
+.testimonial {
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-right: auto;
+	margin-left: auto;
+	width: 75%;
+	}
+
+.testimonial h1 {
+	margin-top: .5em;
+	}
+	
+.testimonial p {
+	padding-top: 1em;
+	font-size: 18px;
+	}
+	
+/* UPDATES */
+#updates {
+	width: 100%;
+	}
+	
+#updates h1 {
+	margin: 0;
+	text-align: center;
+	padding-top: .8em;
+	padding-bottom: .4em;
+	}
+
+.video {
+	width: 55%;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+.video iframe {
+	width: 100%;
+	height: 30em;
+	}
+
+#lacanada {
+	padding-bottom: 2em;
+	}
+/* CONTACT */
+#form {
+	width: 100%;
+	}
+	
+#formheader h1 {
+	margin: 0;
+	text-align: center;
+	margin-top: 1.5em;
+	margin-bottom: .5em;
+	}
+
+#formbody {
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	
+#formbody input {
+	width: 100%;
+	margin-bottom: 1em;
+	}
+
+#formbody textarea {
+	width: 100%;
+	height: 15em;
+	}
+
+#formbody #submit {
+	width: 40%;
+	border-radius: 5px;
+	margin-top: 1.5em;
+	}
+	
+}
